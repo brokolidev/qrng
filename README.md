@@ -14,5 +14,6 @@ python -m venv .venv
 
 # install qiskit package
 pip install qiskit qiskit_aer
+pip install 'qiskit[visualization]'
 
 ```
