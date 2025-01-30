@@ -6,6 +6,9 @@ number_of_qbits = 1  # number of quantum bits
 # Create a quantum circuit with 1 qubit and 1 classical bit for measurement
 qc = QuantumCircuit(number_of_qbits, 1)
 
+# Apply the X gate to the qubit
+qc.x(0)
+
 # Apply the Hadamard gate to the qubit
 qc.h(0)
 
